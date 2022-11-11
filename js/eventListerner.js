@@ -3,7 +3,6 @@ window.addEventListener('keydown', (event) =>{
         case 'w': 
         if(player.velocity.y === 0)
             player.velocity.y = -20
-            console.log(event.key);
             
         break
         
